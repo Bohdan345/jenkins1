@@ -1,0 +1,14 @@
+plugins {
+    id 'java-library'
+
+}
+repositories {
+    mavenCentral()
+}
+dependencies {
+    implementation "org.junit.jupiter:junit-jupiter-api:5.7.2"
+
+    implementation 'com.codeborne:selenide:5.24.2'
+
+
+}
